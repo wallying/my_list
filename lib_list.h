@@ -14,6 +14,11 @@
 #endif
 
 
+#define LIB_LIST(name) \
+        list_t name##_list = NULL; \
+        list_t *name = &name##_list
+
+
 typedef void *list_t;
 
 
