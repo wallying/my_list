@@ -46,12 +46,13 @@ myItem_t item6 = {NULL, "06"};
 
 int main(int argc, char *argv[])
 {
+    printf("Hello lib_list!\n\n");
+
+
     list_init(&link_list);print_list();
 
     list_insert_head(&link_list, &item1);print_list();
     printf("\r\n");
-
-
 
 
     list_insert_tail(&link_list, &item2);print_list();
